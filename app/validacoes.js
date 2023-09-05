@@ -1,10 +1,6 @@
 function verificaChuteValido(chute) {
     const numero = +chute
 
-    // while(numero !== numeroSecreto) {
-    //
-    // }
-
     if(chuteForInvalido(numero)){
         elementoChute.innerHTML += '<div>Valor Inválido</div>'
         return
